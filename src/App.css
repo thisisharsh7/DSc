@@ -3,28 +3,4 @@
 @tailwind utilities;
 
 
-.modal {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100vw;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.7);
 
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.modal-content{
-    width: 120vh;
-    height: 80vh;
-    display: flex;
-    flex-direction: column;
-}
-
-.logonav{
-    width:fit-content;
-    height: 50px
-}
